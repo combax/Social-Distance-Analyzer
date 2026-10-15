@@ -1,0 +1,25 @@
+.venv/
+data/
+runs/
+results/preds/
+results/tracks/
+results/finetune/
+*.pt
+*.mp4
+*.avi
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+TASKS.ledger.md
+results/smoke/
+results/wildtrack_dets/
+weights/
+results/logs/
+results/_stale/
+
+# quality-gate scratch output
+.coverage
+.gates.lcov
+.gates.cov.json
+.complexipy_cache/
